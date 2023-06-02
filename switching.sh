@@ -2,11 +2,13 @@
 
 case ${1,,} in
 	habib | prashanth)
-		echo "Hello there, welcome to bash terminal!!"
+		echo -e "\nHello there, welcome to bash terminal!!"
+		./functions.sh
+		echo -e "\n"
 		;;
 	help)
-		echo "Just enter your username!!"
+		echo -e "\nJust enter your username!!\n"
 		;;
 	*)
-		echo "Invalid username, please enter a valid username"
+		echo -e "\nInvalid username, please enter a valid username\n"
 esac
