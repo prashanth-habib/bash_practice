@@ -1,10 +1,8 @@
 #!/bin/bash
 
-mynum=300
-
-if [ $mynum -eq 200 ]
+if [ -d /home/prashanth/Music ]
 then
-	echo "The condition is true"
+	echo "The directory exists"
 else
-	echo "The condition is false"
+	echo "The directory does not exist"
 fi
