@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Read input from the user
-read -p "Enter your answer (yes/no): " answer
+read -p "Are you sure to install make and g++ packages?(yes/no): " answer
 
 # Check if the input is "yes" or "no"
 if [[ $answer == "y" ]]; then
