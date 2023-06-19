@@ -5,6 +5,7 @@ read -p "Enter your answer (yes/no): " answer
 
 # Check if the input is "yes" or "no"
 if [[ $answer == "y" ]]; then
+    sudo apt update
     sudo apt install make && sudo apt instalp g++
 elif [[ $answer == "n" ]]; then
     echo "You answered no."
